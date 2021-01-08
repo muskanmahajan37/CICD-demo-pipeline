@@ -5,8 +5,7 @@
   "main": "default_test.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc npm run test",
-    "test:ci": "mocha --reporter mocha-teamcity-reporter test"
+    "coverage": "nyc npm run test"
   },
   "author": "",
   "license": "ISC",
