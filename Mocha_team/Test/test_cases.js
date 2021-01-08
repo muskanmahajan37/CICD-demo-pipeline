@@ -8,4 +8,10 @@ describe('CASE',function(){
     it('Case should run' , function(){
         expect(logic()).to.eql('hello there');
     })
+     it('2nd Case is running' , function(){
+        expect(logic()).to.eql('hello there');
+    })
+    it('3nd Case is running' , function(){
+        expect(logic()).to.eql('Hello');
+    })
 })
