@@ -11,7 +11,7 @@ describe('CASE',function(){
      it('2nd Case is running' , function(){
         expect(logic()).to.eql('hello there');
     })
-    it('2nd Case is running' , function(){
+    it('3rd Case is running' , function(){
         expect(logic()).to.eql('there');
     })
 })
