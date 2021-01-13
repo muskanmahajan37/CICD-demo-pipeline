@@ -7,7 +7,7 @@
     "test": "mocha",
     "coverage": "nyc npm run test",
     "mocha-reporter":"mocha --reporter mocha-teamcity-reporter test",
-    "toolsapi":"apigeetool deployExistingRevision -u divyansh.jain@neosalpha.com -p Dj@17091997 -o divyanshjain-eval -e prod -n Mock -r 5"
+    "toolsapi":"apigeetool deployExistingRevision -u divyansh.jain@neosalpha.com -p Dj@17091997 -o divyanshjain-eval -e prod -n Mock -r 6"
   },
   "author": "",
   "license": "ISC",
