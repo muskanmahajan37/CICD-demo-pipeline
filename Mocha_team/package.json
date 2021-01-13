@@ -17,6 +17,7 @@
     "nyc": "^15.1.0"
   },
   "dependencies": {
-    "apigeelint": "^2.3.0"
+    "apigeelint": "^2.3.0",
+     "apigeetool": "^0.15.0"
   }
 }
