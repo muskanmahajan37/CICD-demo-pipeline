@@ -7,7 +7,7 @@
     "test": "mocha",
     "coverage": "nyc npm run test",
     "mocha-reporter":"mocha --reporter mocha-teamcity-reporter test",
-    "msreporter":"mocha --reporter mochawesome || true",
+    "msreporter":"mocha --reporter mochawesome",
     "open:report": "open mochawesome-report/mochawesome.html",
     "toolsapi":"apigeetool deployExistingRevision -u divyansh.jain@neosalpha.com -p -o divyanshjain-eval -e prod -n Mock -r 6"
   },
