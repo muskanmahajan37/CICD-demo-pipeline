@@ -8,7 +8,8 @@
     "coverage": "nyc npm run test",
     "mocha-reporter":"mocha --reporter mocha-teamcity-reporter test",
     "msreporter":"mocha test_cases.js --reporter mocha-simple-html-reporter --reporter-options output=report.html",
-    "toolsapi":"apigeetool deployExistingRevision -u divyansh.jain@neosalpha.com -p Dj@17091997 -o divyanshjain-eval -e prod -n Mock -r 6"
+    "mreporter":"mocha test_cases.js --reporter mochawesome"
+    "toolsapi":"apigeetool deployExistingRevision -u divyansh.jain@neosalpha.com -p -o divyanshjain-eval -e prod -n Mock -r 6"
   },
   "author": "",
   "license": "ISC",
